@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+    <head>
+        <style>
+        h1{text-align:center;color:chocolate;}
+        img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:700px;
+            height:250px;
+            border-radius: 20px;
+        }
+        p{
+            text-align: justify;
+            line-height: 20px;
+            padding: 20px;
+
+        }
+        body {
+        background-color:goldenrod;
+        }
+
+    </style>
+    </head>
+    <body>
+        <h1>Kashi Vishwanath Temple</h1>
+        <img src="{% static 'kashivishwanath.jpeg' %}" alt="Kashi Vishwanath Temple">
+        <a href="{% url 'ghat' %}">NEXT</a>
+        
+        <p>
+            
+
+Kashi Vishwanath Temple, dedicated to Lord Shiva, is one of the most sacred shrines in Hinduism and a spiritual heart of Varanasi. Located near the holy River Ganga, the temple attracts millions of devotees who come seeking blessings and inner peace. Its golden domes and ancient architecture reflect centuries of faith and devotion. The temple’s atmosphere is filled with the sound of prayers, bells, and chanting of “Har Har Mahadev.” Considered one of the twelve Jyotirlingas, it holds immense religious significance. Visiting Kashi Vishwanath offers a deeply divine and unforgettable experience.
+        </p>
+        <a href="{% url 'bn' %}">BACK</a>
+    </body>
+</html>

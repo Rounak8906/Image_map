@@ -1,0 +1,37 @@
+{% load static %}
+<html>
+    <head>
+        <style>
+        h1{text-align:center;color:orangered ;}
+        img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:700px;
+            height:250px;
+            border-radius: 20px;
+        }
+        p{
+            text-align: justify;
+            line-height: 20px;
+            padding: 20px;
+
+        }
+        body {
+        background-color:orange;
+        }
+
+    </style>
+    </head>
+    <body>
+        <h1>Ganga Aarti Ceremony</h1>
+        <img src="{% static 'gangaaarti.jpg' %}" alt="Ganga Aarti">
+        <a href="{% url 'ghat' %}">BACK</a>
+        <p>
+            
+
+The Ganga Aarti at Dashashwamedh Ghat is one of the most enchanting spiritual ceremonies in Varanasi. As the sun sets, priests dressed in traditional attire perform synchronized rituals with lamps, incense, and chants dedicated to the sacred River Ganga. Thousands of devotees and visitors gather on the ghat and in boats to witness the mesmerizing sight. The air fills with the sound of bells, conch shells, and devotional music, creating a divine atmosphere. The glowing lamps reflecting on the river make the moment even more magical. Experiencing the Ganga Aarti is a deeply peaceful and unforgettable memory for anyone visiting Varanasi.
+        </p>
+          <a href="{% url 'home' %}">BACK TO MAP</a>
+    </body>
+</html>

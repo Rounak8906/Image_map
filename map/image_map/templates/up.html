@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+<head>
+    <title>Uttar Pradesh</title>
+    <style>
+
+        img{
+            
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             height: 100vh;
+        }
+        body{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+   
+    <img src="{% static 'uttarpradesh.png' %}" alt="Uttar Pradesh" usemap="#imap" >
+    <map name="imap">
+        <area shape="rect" coords="804,520,1038,783" href="{% url 'bn' %}" title="Up">
+
+    </map>

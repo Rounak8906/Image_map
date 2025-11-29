@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{text-align:center;color:darkolivegreen;}
+        img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:700px;
+            height:250px;
+            border-radius: 20px;
+        }
+        p{
+            text-align: justify;
+            line-height: 20px;
+            padding: 20px;
+
+        }
+        
+         body {
+        background-color:wheat;
+        }
+</style>
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        Varanasi
+    </h1>
+    <img src="{% static 'varanasi.jpeg' %}">
+    <a href="{% url 'kashi' %}">NEXT</a>
+    
+    <p>Varanasi, one of the oldest living cities in the world, sits gracefully on the banks of the sacred River Ganga. Known for its vibrant ghats, the city is a spiritual hub where rituals, prayers, and festivals fill the air with devotion. Its narrow lanes echo with the sounds of temple bells, classical music, and bustling markets. Varanasi is also a center of learning, culture, and traditional arts. The mesmerizing Ganga Aarti at Dashashwamedh Ghat draws visitors from across the globe. Rich in history and heritage, Varanasi offers a timeless experience of India’s spiritual soul.</p>
+     <a href="{% url 'home' %}">BACK</a>
+</body>
+</html>
