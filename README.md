@@ -254,10 +254,10 @@ The Ganga Aarti at Dashashwamedh Ghat is one of the most enchanting spiritual ce
 ```
 
 # OUTPUT
-![alt text](../ind.png)
-![alt text](../vns.png)
-![alt text](../kash.png)
-![alt text](../ghat.png)
-![alt text](../aart.png)
+![alt text](ind.png)
+![alt text](vns.png)
+![alt text](kash.png)
+![alt text](ghat.png)
+![alt text](aart.png)
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
