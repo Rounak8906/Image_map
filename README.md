@@ -83,6 +83,10 @@ html files
     <img src="{% static 'uttarpradesh.png' %}" alt="Uttar Pradesh" usemap="#imap" >
     <map name="imap">
         <area shape="rect" coords="804,520,1038,783" href="{% url 'bn' %}" title="Up">
+        <area shape="rect" coords="440,420,500,480" alt="Rectangle" href="{% url 'kashi'%}" title="kashivishwanath">
+        <area shape="rect" coords="510,360,570,420" alt="Rectangle" href="{% url 'ghat'%}"title="dhasashwamedhghat">
+        <area shape="rect" coords="520,500,580,560" alt="Rectangle" href="{% url 'aarti'%}" title="gangaaarti">
+        
 
     </map>
 
